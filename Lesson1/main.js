@@ -23,6 +23,6 @@ console.log(typeof b);
 console.log(typeof c);
 
 let myFirstName = prompt('Enter your first name');
-let myMiddleName = prompt('Enter your middle name');
 let myLastName = prompt('Enter your last name');
-console.log(myFirstName, myMiddleName, myLastName)
+let myAge = +prompt('Enter your age')
+console.log(myFirstName, myLastName, myAge)
