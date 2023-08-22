@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.users-box {
+    display: inline-flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+
+    width: 80%;
+
+    border: 1px solid darkblue;
+}
+
+.user-block h2 {
+    padding: 30px;
+}
+
+.address-block {
+    padding: 10px 0;
+}
