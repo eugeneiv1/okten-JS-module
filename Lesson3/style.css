@@ -1,0 +1,9 @@
+.product-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-image {
+    width: 10vw;
+}
