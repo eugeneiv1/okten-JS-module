@@ -60,7 +60,7 @@
 
                 wrapper.appendChild(closeBtn);
 
-                if (posts) {
+                if (posts.length) {
                     for (const post of posts) {
                         const div = document.createElement('div');
                         div.classList.add('likedPost');
