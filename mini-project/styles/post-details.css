@@ -1,0 +1,73 @@
+#post-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#post-wrapper ul {
+    list-style: none;
+    padding-inline-start: 0;
+
+    border: 2px solid dimgray;
+    border-radius: 5px;
+
+    padding: 10px;
+}
+
+#post-wrapper ul li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#post-comments {
+    width: 70%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#post-comments ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#post-comments ul li {
+    width: 20%;
+}
+
+#goback-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+
+    border: 2px solid black;
+    border-radius: 50px;
+
+    background-color: #949494;
+
+    cursor: pointer;
+}
+
+#goback-btn:hover {
+    box-shadow: 0 0 5px 0 black inset, 0 0 10px 2px black;
+}
+
+.liked {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

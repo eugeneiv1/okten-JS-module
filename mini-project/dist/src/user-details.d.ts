@@ -1,0 +1,14 @@
+declare const getUserInfo: (id: number) => Promise<any>;
+declare const getUser: (id: any) => Promise<any>;
+declare const url: URL;
+declare const id: string;
+declare const goBackBtn: HTMLElement;
+declare const showUserInfo: () => Promise<void>;
+declare const renderUserInfo: (user: object, tag: any) => void;
+declare const getPostsInfo: (id: number) => Promise<any>;
+declare const showPosts: () => Promise<void>;
+declare const showPostDetails: (posts: [object], tag: any) => void;
+declare const likedPostsList: any;
+declare const wrapper: HTMLElement;
+declare const likedPostsBtn: HTMLElement;
+declare const renderLikedPosts: (posts: [object]) => Promise<void>;
